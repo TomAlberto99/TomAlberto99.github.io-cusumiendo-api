@@ -1,0 +1,69 @@
+html{
+
+    background-color: #173c4b;
+
+
+
+}
+h1{
+
+    text-align: center;
+    font-family:  'get_schwifty', sans-serif;
+    font-size: 45px;
+    color: #1391b1;
+}
+article{
+    padding: 5px;
+    box-shadow: 0px 0px 1px #000 ;
+    border-radius: 10px;
+    gap: 1px;
+    background-color: #0a2933;
+  
+}
+main{
+    
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 1px;
+    justify-items: center;
+   
+    
+}
+.titulo{
+    background-image: url("/imagen/wp6737010-rick-and-morty-portal-wallpapers.jpg");
+    background-size: cover;
+}
+.card{
+    display: flex;
+    border-radius: 20px;
+}
+
+.aleatorio{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.buton{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+    background-color: #3498db;
+    color: #ffffff;
+    border: none;
+    border-radius: 10px; /* Ajusta el valor para cambiar la cantidad de redondeo */
+    padding: 10px 20px;
+    cursor: pointer; /* Cambia el cursor al pasar por encima */
+    transition: transform 0.3s ease; /* Transición suave para la transformación */
+}
+
+.buton:active {
+    transform: scale(0.9); /* Reduce el tamaño cuando se presiona el botón */
+}
+
+@font-face {
+    font-family: 'get_schwifty';
+    src: url('/fuente/get_schwifty.ttf') format('truetype'); /* Ajusta la ruta y el formato según el archivo de fuente descargado */
+}
